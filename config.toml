@@ -1,6 +1,6 @@
 baseURL = 'http://deceit-and-disease.com/'
 languageCode = 'en-us'
-title = 'Deceit & Disease: A Love Language'
+title = 'Deceit & Disease: The Love Language of Samantha Rene Ames'
 theme = "toxin"
 paginate = 10
 pluralizelisttitles = false
@@ -8,7 +8,7 @@ pluralizelisttitles = false
 [params]
     brand = "Deceit & Disease:"
     brand_image = "/images/brand/storms.png"    # path to the image shown in the sidebar
-    description = "A Love Language."      # This the default meta description used if not declared in front matter
+    description = "The Love Language Spoken by Samantha Rene Ames."      # This the default meta description used if not declared in front matter
     dark_mode = true                      # optional - defaults to false
     favicon = "/images/brand/sleepy.gif"             # path to favicon (defaults to favicon.png)
     front_page_content = ["posts"]
