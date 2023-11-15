@@ -1,3 +1,12 @@
+---
+title: Struck by Lightning
+date: 2023-11-11
+draft: false
+
+
+---
+
+
 # Deconstructing Disinformation
 _In early July this year, Sam confessed that God had spoken to her. According to her, a lightning bolt splitting a tree was a divine message for her to return to me, emphasizing my role as a provider for her and our son. This omen also heralded the birth of our daughter, a child apparently destined for a Messianic role. Interestingly, this revelation conveniently omitted Sam's and our son's whereabouts during their year-long absence._
 
