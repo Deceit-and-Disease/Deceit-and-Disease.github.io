@@ -13,7 +13,7 @@ _In early July of this year Sam confessed that God had spoken to her. His messag
 ## The Sin of Omission
 She seemingly forgot why I ventured to Seattle in December 2021—it was her insistence that led me north to forge a path for our future away from Arizona. This selective amnesia was a gut-wrenching pill to swallow, not the first time she had erased our plans and pivotal dialogues from memory. Another betrayal for the ledger. As I settled into my new city, she grew increasingly elusive, repeatedly hinting at a social media hiatus. Knowing her as an unrepentant social media devotee, I saw through the charade; her disclaimer about phone inaccessibility was a preemptive absolution for her already-decided infidelity. Her responses to my queries about joining me in Washington were nothing but smoke screens, her actions transparent then as they are now, leaving no solace in the accuracy of my predictions.
 
-> "I went  was a single date. I fancied him, but that was it. I've blocked him now."
+> "I went on one date. I liked him, but that was it. Nothing happened and I blocked him..."
 
 Her narrative omitted the boyfriend who took up residence. Nor did she disclose her STD results.
 [It was chlamydia.]
@@ -21,7 +21,7 @@ Her narrative omitted the boyfriend who took up residence. Nor did she disclose 
 While Sam vanished, my support—financial and emotional—somehow found its way to them. Sam insists it was solely my mother who aided with monthly expenses during my absence, feigning ignorance of my contributions. Sure. So, while my mother indulges Sam's gossip and bad-mouthing of her eldest, as it is the only opportunity  she has to see her grandson, she also feels compelled to pay $400 monthly for the privilege. The same mother, who records three seconds of video when she means to snap a photo, and who still worries about using a credit card on the internet, is, in secret, also the benefactor who sends monthly Koala Crates, books, toys, and clothes for my son?  I guess she is also, in secret, the mysterious benefactor who encouraged Sam to sign up for and agreed to pay for a year of internet service while Sam cheated on her son?  OF COURSE Sam believes this. This is far from the first time she's embraced ridiculous ideas to rationalize reprehensible conduct.
 
 ### Example:
-She failed to mention the guy living with her, who shared much more than her space. 
+She failed to mention the guy living with her, who shared much more than her space.
 
 However, she repeatedly expressed her expectation that I shoulder her personal expenses—car insurance, groceries, fuel, a three-month backlog of bills, overdraft fees, and even her relentless smoking habit. We had struck a deal.
 
