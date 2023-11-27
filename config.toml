@@ -6,23 +6,16 @@ paginate = 10
 pluralizelisttitles = false
 
 [params]
-    brand = "Deceit & Disease:"
-    brand_image = "/images/brand/storms.png"    # path to the image shown in the sidebar
-<<<<<<< HEAD
-    description = "The Love Language of Samantha Ames."      # This the default meta description used if not declared in front matter
-    dark_mode = true                      # optional - defaults to false
-    favicon = "/images/brand/sleepy.gif"             # path to favicon (defaults to favicon.png)
+    brand = "Deceit & Disease"
+    brand_image = "/images/brand/storms.png"    	# path to the image shown in the sidebar
+    description = "The Love Language of Samantha Ames." # This the default meta description used if not declared in front matter
+    dark_mode = true                      		# optional - defaults to false
+    favicon = "/images/brand/sleepy.gif"             	# path to favicon (defaults to favicon.png)
     front_page_content = ["posts"]
+    toc = false
     plausible = true
     plausible_domain = "deceit-and-disease.com"
     plausible_script = "https://plausible.io/js/script.js"
-=======
-    description = "The Love Language of Sam Ames."      # This the default meta description used if not declared in front matter
-    dark_mode = true                      # optional - defaults to false
-    favicon = "/images/brand/sleepy.gif"             # path to favicon (defaults to favicon.png)
-    front_page_content = ["posts"]
-    toc = false
->>>>>>> 0038e92 (	deleted:    .github/workflows/hugo.yml)
 
     # MENU PLACEHOLDER
     # Menu Dict keys:
@@ -64,26 +57,16 @@ pluralizelisttitles = false
 	name = "Posts"
 	url = "/content/posts/"
 	weight = 2
-	
 
     # Links to your socials.  Comment or delete any you don't need/use. 
     #discord_url = "https://discord.com"
     #email_url = "mailto://sam.ames@haloinfusions.com"
-<<<<<<< HEAD
-    ##facebook_url = "https://facebook.com"
-    #flickr_url = "https://flickr.com"
-    #github_url = "https://github.com"
-    #gitlab_url = "https://gitlab.com"
-    #instagram_url = "https://instagram.com/hap_hzrd"
-    #linkedin_url = "https://linkedin.com"
-=======
     #facebook_url = "https://facebook.com"
     #flickr_url = "https://flickr.com"
     #github_url = "https://github.com"
     #gitlab_url = "https://gitlab.com"
     instagram_url = "https://instagram.com/hap_hzrd"
     linkedin_url = "https://www.linkedin.com/in/sam-ames-a32b96286"
->>>>>>> 0038e92 (	deleted:    .github/workflows/hugo.yml)
     #mastodon_url = "https://mastodon.social"
     #matrix_url = "https://matrix.org"
     #telegram_url = "https://telegram.org"
