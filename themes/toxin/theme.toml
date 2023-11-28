@@ -3,8 +3,8 @@
 
 name = "Toxin"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
+licenselink = "https://github.com/Deceit-and-Disease/toxin/blob/master/LICENSE"
+description = "A ripoff of Poison by Luke Orth"
 homepage = "http://example.com/"
 tags = ["blog", "personal", "dark", "dark-mode", "light", "minimal"]
 features = ["blog", "table-of-contents", "tabs", "dark-mode", "series"]
