@@ -1,21 +1,21 @@
-baseURL = 'https://deceit-and-disease.com/'
-languageCode = 'en-us'
-title = 'Deceit & Disease: The Love Language of Sam Ames as Told By a Survivor'
+baseURL = "/"
+languageCode = "en-us"
+title = "Deceit and Disease: The Love Language of Sam R. Ames"
 theme = "toxin"
 paginate = 3
 pluralizelisttitles = false
 
 [params]
-    brand = "Deceit & Disease"
+    brand = "Deceit and Disease"
     brand_image = "/images/brand/storms.png"    	# path to the image shown in the sidebar
-    description = "The Love Language of Sam Ames as Told by a Survivor" # This the default meta description used if not declared in front matter
-    dark_mode = true                      		# optional - defaults to false
-    favicon = "/images/brand/favicon.png"             	# path to favicon (defaults to favicon.png)
+    description = "Deceit and Disease: The Love Language of Sam R. Ames"   # This the default meta description used if not declared in front matter
+    dark_mode = true                        		# optional - defaults to false
+    favicon = "/images/brand/favicon.png"       	# path to favicon (defaults to favicon.png)
     front_page_content = ["posts"]
     toc = true
-    plausible = true
-    plausible_domain = "deceit-and-disease.com"
-    plausible_script = "https://plausible.io/js/script.js"
+    # plausible = true
+    # plausible_domain = "deceit-and-disease.com"
+    # plausible_script = "https://plausible.io/js/script.js"
 
     # MENU PLACEHOLDER
     # Menu Dict keys:
@@ -25,7 +25,7 @@ pluralizelisttitles = false
         # Limit:        If the files should be listed, how many should be shown.
     menu = [
         {Name = "About", URL = "/about/", HasChildren = false},
-        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 4},
            ]
 
         # SINGLE PAGE
@@ -42,7 +42,7 @@ pluralizelisttitles = false
 
         # Example:
         # ... /content/posts/introducing-poison.md
-	# {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+    	# {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
 
         # Example of a list without a subheading or limit.
         # {Name = "Projects", URL = "/projects/"},
@@ -57,55 +57,45 @@ pluralizelisttitles = false
 	url = "/content/posts/"
 	weight = 2
 
-    # Links to your socials.  Comment or delete any you don't need/use. 
-    #discord_url = "https://discord.com"
-    email_url = "mailto://sammi14sra@gmail.com"
-    facebook_url = "https://facebook.com/Haphazard4"
-    #flickr_url = "https://flickr.com"
-    #github_url = "https://github.com"
-    #gitlab_url = "https://gitlab.com"
-    instagram_url = "https://instagram.com/hap_hzrd"
-    linkedin_url = "https://www.linkedin.com/in/sam-ames-a32b96286"
-    #mastodon_url = "https://mastodon.social"
-    #matrix_url = "https://matrix.org"
-    #telegram_url = "https://telegram.org"
-    #tryhackme_url = "https://tryhackme.com"
-    #twitter_url = "https://twitter.com"
-    #xmpp_url = "https://xmpp.org"
-    youtube_url = "https://youtube.com/@Hap_hzrd"
-    #email_url = "mailto://samm.ames@proton.me"
-
-    # NOTE: If you don't want to use RSS, comment or delete the following lines
-    # Adds an RSS icon to the end of the socials which links to {{ .Site.BaseURL }}/index.xml
+    # Links to socials.
+    email_url = "mailto://webmaster@deceit-and-disease.com"
+    facebook_url = "https://www.facebook.com/deceit.and.disease"
+    #instagram_url = "https://instagram.com/hap_hzrd"
+    #youtube_url = "https://youtube.com/@Hap_hzrd"
+    
+    # NOTE: If no RSS, comment or delete the following lines
+    # Adds an RSS icon to the end of the socials which 
+    # links to {{ .Site.BaseURL }}/index.xml
     rss_icon = true
-    # Which section the RSS icon links to, defaults to all content. See https://gohugo.io/templates/rss/#section-rss
+    # Which section the RSS icon links to, defaults to all content
+    # See https://gohugo.io/templates/rss/#section-rss
     rss_section = "posts"
 
-    # Hex colors for your sidebar.
-    moon_sun_background_color = "#515151"   # default is #515151
-    moon_sun_color = "#FFF"                 # default is #FFF
-    sidebar_a_color = "#FFF"                # default is #FFF
-    sidebar_bg_color = "#202020"            # default is #202020
-    sidebar_h1_color = "#FFF"               # default is #FFF
-    sidebar_img_border_color = "#515151"    # default is #515151
-    sidebar_p_color = "#909090"             # default is #909090
-    sidebar_socials_color = "#FFF"          # default is #FFF
+    # Hex colors for the sidebar.
+    moon_sun_background_color = "#515151"           # default is #515151
+    moon_sun_color = "#FFF"                         # default is #FFF
+    sidebar_a_color = "#FFF"                        # default is #FFF
+    sidebar_bg_color = "#202020"                    # default is #202020
+    sidebar_h1_color = "#FFF"                       # default is #FFF
+    sidebar_img_border_color = "#515151"            # default is #515151
+    sidebar_p_color = "#909090"                     # default is #909090
+    sidebar_socials_color = "#FFF"                  # default is #FFF
 
-    # Hex colors for your content in light mode.
-    code_color = "#000"                     # default is #000
-    code_background_color = "#E5E5E5"       # default is #E5E5E5
-    code_block_color = "#FFF"               # default is #FFF
-    code_block_background_color = "#272822" # default is #272822
-    content_bg_color = "#FAF9F6"            # default is #FAF9F6
-    date_color = "#515151"                  # default is #515151
-    link_color = "#268BD2"                  # default is #268BD2
-    list_color = "#5A5A5A"                  # default is #5A5A5A
-    post_title_color = "#303030"            # default is #303030
-    table_border_color = "#E5E5E5"          # default is #E5E5E5
-    table_stripe_color = "#F9F9F9"          # default is #F9F9F9
-    text_color = "#222"                     # default is #222
+    # Hex colors for content in light mode.
+    code_color = "#000"                             # default is #000
+    code_background_color = "#E5E5E5"               # default is #E5E5E5
+    code_block_color = "#FFF"                       # default is #FFF
+    code_block_background_color = "#272822"         # default is #272822
+    content_bg_color = "#FAF9F6"                    # default is #FAF9F6
+    date_color = "#515151"                          # default is #515151
+    link_color = "#268BD2"                          # default is #268BD2
+    list_color = "#5A5A5A"                          # default is #5A5A5A
+    post_title_color = "#303030"                    # default is #303030
+    table_border_color = "#E5E5E5"                  # default is #E5E5E5
+    table_stripe_color = "#F9F9F9"                  # default is #F9F9F9
+    text_color = "#222"                             # default is #222
 
-    # Hex colors for your content in dark mode
+    # Hex colors for content in dark mode
     code_color_dark = "#FFF"                        # default is #FFF
     code_background_color_dark = "#515151"          # default is #515151
     code_block_color_dark = "#FFF"                  # default is #FFF
@@ -119,9 +109,10 @@ pluralizelisttitles = false
     table_stripe_color_dark = "#202020"             # default is #202020
     text_color_dark = "#EEE"                        # default is #EEE
 
-    # NOTE: If using Remark42 as commenting engine, uncomment and configure these lines
+    # NOTE: Uncomment and configure these lines 
+    #       if using Remark42 as commenting engine.
     # remark42 = true
-    # remark42_host = "https://yourhost.com"
+    # remark42_host = "https://somehost.com"
     # remark42_site_id = "your_site_id"
     
     # NOTE: The following three params are optional and are used to create meta tags + enhance SEO.
