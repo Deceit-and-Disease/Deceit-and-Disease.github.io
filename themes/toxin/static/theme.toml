@@ -7,8 +7,8 @@ licenselink = "https://github.com/Deceit-and-Disease/toxin/blob/master/LICENSE"
 description = "A ripoff of Poison by Luke Orth"
 homepage = "http://example.com/"
 tags = ["blog", "personal", "dark", "dark-mode", "light", "minimal"]
-features = ["blog", "table-of-contents", "tabs", "dark-mode", "series"]
-min_version = "0.101.0"
+features = ["blog", "tabs", "dark-mode", "series"]
+min_version = "0.92.0"
 
 [author]
   name = ""
