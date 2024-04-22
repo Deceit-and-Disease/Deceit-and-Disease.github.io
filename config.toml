@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://deceit-and-disease.com/"
 languageCode = "en-us"
 title = "Deceit & Disease: The Love Language of Sam Ames"
 theme = "toxin"
@@ -8,11 +8,11 @@ pluralizelisttitles = false
 [params]
     brand = "Deceit & Disease"
     brand_image = "/images/brand/withered.png"
-    description = "Deceit & Disease: The Love Language of Sam Ames"   # This the default meta description used if not declared in front matter
+    description = "The Love Language of Sam Ames"   # This the default meta description used if not declared in front matter
     dark_mode = true                        		# optional - defaults to false
-    favicon = "/images/brand/favicon.png"       	# path to favicon (defaults to favicon.png)
+    favicon = "favicon.png"       	# path to favicon (defaults to favicon.png)
     front_page_content = ["about", "posts"]
-    toc = true
+    toc = false
     # plausible = true
     # plausible_domain = "deceit-and-disease.com"
     # plausible_script = "https://plausible.io/js/script.js"
