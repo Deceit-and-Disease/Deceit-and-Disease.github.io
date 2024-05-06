@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "http://deceit-and-disease.pages.dev/"
 languageCode = "en-us"
 title = "Deceit & Disease: The Love Language of Sam Ames"
 theme = "toxin"
@@ -7,7 +7,7 @@ pluralizelisttitles = false
 
 [params]
     brand = "Deceit & Disease"
-    brand_image = "/images/brand/withered.png"
+    brand_image = "/images/site/withered.png"
     description = "The Love Language of Sam Ames"   # This the default meta description used if not declared in front matter
     dark_mode = "true"                        		# optional - defaults to false
     favicon = "favicon.png"      	# path to favicon (defaults to favicon.png)
@@ -60,8 +60,8 @@ pluralizelisttitles = false
     # Links to socials.
     email_url = "mailto://webmaster@deceit-and-disease.com"
     facebook_url = "https://www.facebook.com/deceit.and.disease"
-    #instagram_url = "https://instagram.com/hap_hzrd"
-    #youtube_url = "https://youtube.com/@Hap_hzrd"
+    instagram_url = "https://instagram.com/hap_hzrd"
+    youtube_url = "https://youtube.com/@Hap_hzrd"
     
     # NOTE: If no RSS, comment or delete the following lines
     # Adds an RSS icon to the end of the socials which 
@@ -116,11 +116,11 @@ pluralizelisttitles = false
     # remark42_site_id = "your_site_id"
     
     # NOTE: The following three params are optional and are used to create meta tags + enhance SEO.
-    # og_image = ""                       # path to social icon - front matter: image takes precedent, then og_image, then brand_url
+    og_image = "images/site/og-image.png"                       # path to social icon - front matter: image takes precedent, then og_image, then brand_url
                                           # this is also used in the schema output as well. Image is resized to max 1200x630
                                           # For this to work though og_image and brand_url must be a path inside the assets directory
                                           # e.g. /assets/images/site/og-image.png becomes images/site/og-image.png
-    # publisher_icon = ""                 # path to publisher icon - defaults to favicon, used in schema
+    publisher_icon = "images/icons/publisher-icon.png"                 # path to publisher icon - defaults to favicon, used in schema
 
 [taxonomies]
     series = "series"
