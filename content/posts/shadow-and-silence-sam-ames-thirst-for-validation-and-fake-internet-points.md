@@ -1,5 +1,5 @@
 ---
-title: "Shadow and Silence - Sam Ames' Thirst for Validation from Fake Internet Points"
+title: "Shadow and Silence - Sam Ames' Thirst for Validation and Fake Internet Points"
 date: 2023-10-09
 draft: false
 ---

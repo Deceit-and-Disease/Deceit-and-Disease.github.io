@@ -8,11 +8,11 @@ pluralizelisttitles = false
 [params]
     brand = "Deceit & Disease"
     brand_image = "/images/site/withered.png"
-    description = "The Love Language of Sam Ames"   # This the default meta description used if not declared in front matter
-    dark_mode = "true"                        		# optional - defaults to false
-    favicon = "favicon.png"      	# path to favicon (defaults to favicon.png)
-    canonical = "true"
-    canonical_base_url = "https://deceit-and-disease.pages.dev"
+    description = "The Love Language of Sam Ames"	# This the default meta description used if not declared in front matter
+    dark_mode = "true"					# optional - defaults to false
+    favicon = "favicon.png"				# path to favicon (defaults to favicon.png)
+    #canonical = "true"
+    #canonical_base_url = "https://deceit-and-disease.pages.dev"
     front_page_content = ["about", "posts"]
     toc = "false"
     # plausible = true
@@ -62,8 +62,8 @@ pluralizelisttitles = false
     # Links to socials.
     email_url = "mailto://webmaster@deceit-and-disease.com"
     facebook_url = "https://www.facebook.com/deceit.and.disease"
-    instagram_url = "https://instagram.com/hap_hzrd"
-    youtube_url = "https://youtube.com/@Hap_hzrd"
+    #instagram_url = "https://instagram.com/hap_hzrd"
+    #youtube_url = "https://youtube.com/@Hap_hzrd"
     
     # NOTE: If no RSS, comment or delete the following lines
     # Adds an RSS icon to the end of the socials which 
@@ -125,6 +125,7 @@ pluralizelisttitles = false
     publisher_icon = "images/icons/publisher-icon.png"                 # path to publisher icon - defaults to favicon, used in schema
 
 [taxonomies]
-    series = "series"
+#   series = "series"
     tags = "tags"
+
 
