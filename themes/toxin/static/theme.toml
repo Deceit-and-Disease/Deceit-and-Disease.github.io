@@ -2,10 +2,10 @@
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
 name = "Toxin"
-license = "MIT"
-licenselink = "https://github.com/Deceit-and-Disease/toxin/blob/master/LICENSE"
+license = ""
+#licenselink = "https://github.com/Deceit-and-Disease/toxin/blob/master/LICENSE"
 description = "A ripoff of Poison by Luke Orth"
-homepage = "http://example.com/"
+#homepage = "http://example.com/"
 tags = ["blog", "personal", "dark", "dark-mode", "light", "minimal"]
 features = ["blog", "tabs", "dark-mode", "series"]
 min_version = "0.92.0"

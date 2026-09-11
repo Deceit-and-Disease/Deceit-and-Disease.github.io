@@ -1,9 +1,14 @@
-baseURL = "https://deceit-and-disease.com/"
-languageCode = "en-us"
+baseURL = "/"
+locale = "en-us"
 title = "Deceit & Disease: The Love Language of Sam Ames"
-theme = "toxin"
-paginate = 5
+theme = "poison"
+configdir = "/config"
+paginate = 3
 pluralizelisttitles = false
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [params]
     brand = "Deceit & Disease"
@@ -26,7 +31,7 @@ pluralizelisttitles = false
         # HasChildren:  If the directory's files should be listed.  Default is true.
         # Limit:        If the files should be listed, how many should be shown.
     menu = [
-        {Name = "About", URL = "/about/", HasChildren = false},
+        {Name = "About", URL = "/about/about.md", HasChildren = false},
         {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
            ]
 
@@ -60,8 +65,8 @@ pluralizelisttitles = false
 	weight = 2
 
     # Links to socials.
-    email_url = "mailto://webmaster@deceit-and-disease.com"
-    facebook_url = "https://www.facebook.com/deceit.and.disease"
+    #email_url = "mailto://webmaster@deceit-and-disease.com"
+    #facebook_url = "https://www.facebook.com/deceit.and.disease"
     #instagram_url = "https://instagram.com/hap_hzrd"
     #youtube_url = "https://youtube.com/@Hap_hzrd"
     
@@ -118,11 +123,11 @@ pluralizelisttitles = false
     # remark42_site_id = "your_site_id"
     
     # NOTE: The following three params are optional and are used to create meta tags + enhance SEO.
-    og_image = "images/site/og-image.png"              # path to social icon - front matter: image takes precedent, then og_image, then brand_url
+    og_image = "/images/site/og-image.png"              # path to social icon - front matter: image takes precedent, then og_image, then brand_url
                                                        # this is also used in the schema output as well. Image is resized to max 1200x630
                                                        # For this to work though og_image and brand_url must be a path inside the assets directory
                                                        # e.g. /assets/images/site/og-image.png becomes images/site/og-image.png
-    publisher_icon = "images/icons/publisher-icon.png" # path to publisher icon - defaults to favicon, used in schema
+    publisher_icon = "/images/icons/publisher-icon.png" # path to publisher icon - defaults to favicon, used in schema
 
 #[taxonomies]
 #   series = "series"

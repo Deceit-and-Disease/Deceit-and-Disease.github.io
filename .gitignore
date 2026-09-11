@@ -1,4 +1,5 @@
 .hugo_build.lock
-man/
-public/
-resources/
+/public
+/themes/toxin
+/themes/poison/LICENSE.md
+/themes/poison/README.md
