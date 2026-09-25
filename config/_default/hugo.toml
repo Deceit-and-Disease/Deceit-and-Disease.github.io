@@ -2,7 +2,13 @@ baseURL = "http://127.0.0.1/"
 locale = "en-us"
 title = "Deceit & Disease: The Love Language of Sam Ames"
 theme = "poison"
-configdir = "/config"
+hasCJKLanguage = false
+copyright = "🄯 2026 Ramsés Cruz"
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+configDir = "config"
 paginate = 3
 pluralizelisttitles = false
 
@@ -16,6 +22,11 @@ pluralizelisttitles = false
     description = "The Love Language of Sam Ames"	# This the default meta description used if not declared in front matter
     dark_mode = "true"					# optional - defaults to false
     favicon = "/images/icons/favicon.png"				# path to favicon (defaults to favicon.png)
+    # public git repo url only then enableGitInfo is true
+    gitRepo = "https://github.com/Deceit-and-Disease/Deceit-and-Disease.github.io"
+    # which hash function used for SRI, when empty, no SRI is used
+    # ["sha256", "sha384", "sha512", "md5"]
+    fingerprint = "sha256"
     #canonical = "true"
     #canonical_base_url = "https://deceit-and-disease.pages.dev"
     front_page_content = ["about", "posts"]
