@@ -119,7 +119,9 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --cacheDir "${{ runner.temp }}/.cache/hugo"
+            --cacheDir "${{ runner.temp }}/.cache/hugo" \
+            --cleanDestinationDir \
+            --forceSyncStatic 
 
       - name: Cache save
         uses: actions/cache/save@v6
