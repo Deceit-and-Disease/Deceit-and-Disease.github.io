@@ -116,12 +116,12 @@ jobs:
         run: |
           echo "Building the project..."
           hugo build \
-            --gc \
-            --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/.cache/hugo" \
+            --minify \
             --cleanDestinationDir \
-            --forceSyncStatic 
+            --forceSyncStatic  \
+            --gc
 
       - name: Cache save
         uses: actions/cache/save@v6
