@@ -4,7 +4,7 @@ title = "Deceit & Disease: The Love Language of Sam Ames"
 theme = "poison"
 hasCJKLanguage = false
 copyright = ""
-enableRobotsTXT = true
+enableRobotsTXT = false
 enableGitInfo = true
 enableEmoji = true
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
@@ -18,19 +18,18 @@ pluralizelisttitles = false
 
 [params]
     brand = "Deceit & Disease"
-    brand_image = "/images/site/withered.png"
+    brand_image = "images/site/withered.png"
     description = "The Love Language of Sam Ames"	# This the default meta description used if not declared in front matter
     dark_mode = "true"					# optional - defaults to false
-    favicon = "/images/icons/favicon.png"				# path to favicon (defaults to favicon.png)
+    favicon = "images/icons/favicon.png"				# path to favicon (defaults to favicon.png)
     # public git repo url only then enableGitInfo is true
     gitRepo = "https://github.com/Deceit-and-Disease/Deceit-and-Disease.github.io"
     # which hash function used for SRI, when empty, no SRI is used
     # ["sha256", "sha384", "sha512", "md5"]
     fingerprint = "sha256"
-    #canonical = "true"
     front_page_content = ["about", "posts"]
     toc = "false"
-    # plausible = true
+    # plausible = false
     # plausible_domain = ""
     # plausibe_script = "https://plausible.io/js/script.js"
 
@@ -75,7 +74,7 @@ pluralizelisttitles = false
 	weight = 2
 
     # Links to socials.
-    #email_url = ""
+    email_url = "mailto:sammi14sra@gmail.com"
     #facebook_url = ""
     instagram_url = "https://instagram.com/hap_hzrd"
     #youtube_url = "https://youtube.com/@Hap_hzrd"
@@ -139,9 +138,9 @@ pluralizelisttitles = false
                                                        # e.g. /assets/images/site/og-image.png becomes images/site/og-image.png
     publisher_icon = "/images/icons/publisher-icon.png" # path to publisher icon - defaults to favicon, used in schema
 
-#[taxonomies]
-#   series = "series"
-#    tags = "tags"
+[taxonomies]
+#    series = "series"
+    tags = "tags"
 
 [module]
   [[module.mounts]]
