@@ -1,4 +1,4 @@
-baseURL = "http://127.0.0.1/"
+baseURL = "http://github.deceit-and-disease.io/"
 locale = "en-us"
 title = "Deceit & Disease: The Love Language of Sam Ames"
 theme = "poison"
